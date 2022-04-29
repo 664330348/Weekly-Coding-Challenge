@@ -2,8 +2,16 @@ package com.revature.codingChallenge;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        testRobotInGridSolution();
+        testStringCompression();
     }
+
+    public static void testStringCompression(){
+        StringCompression stringCompression = new StringCompression();
+
+        String testString = "aabcccccaaa";
+        System.out.println(stringCompression.StringCompression(testString));
+    }
+
     public static void testRobotInGridSolution(){
         RobotInGridSolution solution = new RobotInGridSolution();
         //r=robot; b=blank; o=off-limits; e=end;
